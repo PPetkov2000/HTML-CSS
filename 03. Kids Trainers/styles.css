@@ -1,0 +1,253 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+.content-wrapper {
+  max-width: 1400px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.navbar {
+  background-color: #41bead;
+  color: #fff;
+  height: 4rem;
+}
+
+.navbar .content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar__logo-wrapper {
+  width: 10%;
+}
+
+.navbar__list {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__list-item {
+  list-style-type: none;
+  margin: 0 1rem;
+}
+
+.navbar__list-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.header {
+  background-color: #ffb402;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15rem;
+  text-align: center;
+}
+
+.header__title {
+  margin-bottom: 1rem;
+}
+
+.header__text {
+  width: 55%;
+  margin: 0 auto;
+}
+
+.lectores .content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 0;
+}
+
+.lectores__lector-wrapper {
+  display: flex;
+  width: 48%;
+}
+
+.lectores__image-wrapper {
+  align-self: flex-start;
+  margin-right: 2rem;
+}
+
+.lectores__image-wrapper img {
+  width: 100%;
+  min-width: 150px;
+  border-radius: 50%;
+  border: 8px solid #41bead;
+}
+
+.lectores__lector-info-title {
+  color: #41bead;
+  margin-bottom: 0.5rem;
+}
+
+.lectores__lector-info-subtitle {
+  color: #bfb9bf;
+  margin-bottom: 1rem;
+}
+
+.lectores__lector-info-text {
+  color: #565656;
+}
+
+.trainers .content-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5rem 0;
+}
+
+.trainers__trainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.trainers__trainer-title {
+  color: #41bead;
+  margin: 1rem 0 0.4rem 0;
+}
+
+.trainers__trainer-subtitle {
+  color: #bfb9bf;
+}
+
+.trainers__trainer-image-wrapper img {
+  width: 100%;
+  min-width: 150px;
+  max-width: 160px;
+  max-height: 160px;
+  border-radius: 50%;
+  border: 8px solid #41bead;
+}
+
+.join-us {
+  background-color: #66b9f8;
+  color: #fff;
+  border-top: 10px solid #92cdfb;
+}
+
+.join-us .content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 3rem 6rem 3rem;
+}
+
+.join-us__title {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.join-us__text {
+  width: 75%;
+  margin: 0 auto 2rem auto;
+  text-align: center;
+}
+
+.join-us__form {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.join-us__form-inputs {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 90%;
+}
+
+.join-us__form-input {
+  flex-basis: 50%;
+  background-color: transparent;
+  color: #fff;
+  padding: 0.8rem 1rem;
+  margin: 0 0.7rem;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  outline: none;
+}
+
+.join-us__form-input::placeholder {
+  color: #fff;
+}
+
+.join-us__form-button {
+  align-self: center;
+  background-color: #ff9100;
+  color: #fff;
+  margin-left: 1.5rem;
+  padding: 0.8rem 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 1.5rem;
+  box-shadow: 1px 5px 3px #565656;
+}
+
+.footer {
+  background-color: #565656;
+  color: #fff;
+  border-top: 10px solid #919191;
+}
+
+.footer .content-wrapper {
+  padding: 1.5rem 0;
+}
+
+.footer__list {
+  display: flex;
+}
+
+.footer__list-item {
+  flex-basis: 25%;
+}
+
+.footer__list-link {
+  font-weight: bold;
+}
+
+.footer__list-item,
+.footer__list-inner-item {
+  list-style-type: none;
+}
+
+.footer__list-link,
+.footer__list-inner-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__list-inner {
+  margin-top: 1rem;
+}
+
+.footer__list-inner-link {
+  font-size: 0.9rem;
+}
+
+.footer__list-inner.icon-list {
+  display: flex;
+}
+
+.footer__list-inner.icon-list i {
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
